@@ -3,7 +3,7 @@ process.stdin.on('readable', function() {
     var input = process.stdin.read();
     if (input !== null) {
         var instruction = input.toString().trim();
-        switch(instruction) {
+        switch (instruction) {
             case 'exit':
                 process.exit();
             case 'info':
